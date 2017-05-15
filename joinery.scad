@@ -5,7 +5,7 @@ peg_round_height = 1;
 peg_padding = 2;
 peg_with_padding = peg_diameter + peg_padding * 2;
 num_pegs = 5;
-peg_gap = .05;
+peg_gap = .02;
 
 module make_peg(height, diameter, round_height) {
   union() {
